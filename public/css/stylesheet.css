@@ -1,0 +1,288 @@
+.banner {
+    width: 100%;
+    height: 300px;
+    background-color: greenyellow;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.mainHeading {
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+}
+
+.postHeading {
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.postContent {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #f6f6f6;
+}
+
+.postDetails {
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    color: #f6f6f6;
+}
+
+.col {
+    height: 300px;
+    background-color: rgb(26, 29, 97);
+    margin: 5px;
+    border-radius: 5%;
+}
+
+.row {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bodyBack {
+    background-color: #202731;
+    margin: 0px;
+
+}
+
+/* article view*/
+.postBlock {
+    background-color: rgb(26, 29, 97);
+    width: 600px;
+    height: auto;
+    box-shadow: 5px 10px #f6f6f6;
+    border-radius: 5%;
+    margin: auto;
+    padding: 30px 50px 30px 50px;
+    position: relative;
+    margin-top: 1%;
+}
+
+.headingPost {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #f6f6f6;
+}
+
+.contentPost {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-bottom: 1em;
+    color: #f6f6f6;
+}
+
+.postBodyBack {
+    background-color: #202731;
+    margin: 0px;
+}
+
+.spacer {
+    padding: 35px;
+}
+
+a {
+    color: #f6f6f6 !important;
+}
+
+
+
+/* Curves */
+
+.custom-shape-divider-bottom-1693563954 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1693563954 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 84px;
+}
+
+.custom-shape-divider-bottom-1693563954 .shape-fill {
+    fill: #202731;
+}
+
+.custom-shape-divider-top-1693567081 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1693567081 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 92px;
+}
+
+.custom-shape-divider-top-1693567081 .shape-fill {
+    fill: #202731;
+}
+
+/* Search view */
+
+.searchHeading {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.searchBlock {
+    width: 700px;
+    height: 475px;
+    margin: auto;
+    border-radius: 5%;
+    background-color: greenyellow;
+    box-shadow: 3px 5px #f6f6f6;
+}
+
+.inputBox {
+    text-align: center;
+    margin: auto;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    width: 40%;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.searchLabel {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #202731;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.searchBTN {
+    text-align: center;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5%;
+    background-color: #202731;
+    color: #f6f6f6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+.searchBTN:hover {
+    width: 35%;
+    background-color: #f6f6f6;
+    color: #202731;
+}
+
+/* Footer view */
+.footerHead {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #202731;
+    margin-top: 100px;
+}
+
+.footerContent {
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #202731;
+}
+
+/* Terms and Conditions view */
+.termsBlock {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    background-color: greenyellow;
+    border-radius: 5%;
+    padding: 50px;
+}
+
+.termsHead {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #202731;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.termsContent {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #202731;
+}
+
+.copywriteClause {
+    color: #575757;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+}
+
+mark {
+    background-color: #f6f6f6;
+    color: #202731;
+}
+
+/* cookie view*/
+
+.cookie-notice {
+    text-align: center;
+    padding: 20px;
+}
+
+/*About view*/
+.aboutHeading {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #202731;
+    font-weight: 300;
+}
+
+.aboutContent {
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #202731;
+}
